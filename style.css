@@ -1,0 +1,310 @@
+/* fontes */
+@import url(//db.onlinewebfonts.com/c/1e6ec96c95301fa73aa1d026f161a269?family=MarzoW00-Regular);
+@font-face {
+  font-family: "MarzoW00-Regular";
+  src: url("//db.onlinewebfonts.com/t/1e6ec96c95301fa73aa1d026f161a269.eot");
+  src: url("//db.onlinewebfonts.com/t/1e6ec96c95301fa73aa1d026f161a269.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/1e6ec96c95301fa73aa1d026f161a269.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/1e6ec96c95301fa73aa1d026f161a269.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/1e6ec96c95301fa73aa1d026f161a269.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/1e6ec96c95301fa73aa1d026f161a269.svg#MarzoW00-Regular")
+      format("svg");
+}
+@import url(//db.onlinewebfonts.com/c/c1366ca2e69f54f37349d7c538f17e82?family=EngraversGothicW01-Bold);
+@font-face {
+  font-family: "EngraversGothicW01-Bold";
+  src: url("//db.onlinewebfonts.com/t/c1366ca2e69f54f37349d7c538f17e82.eot");
+  src: url("//db.onlinewebfonts.com/t/c1366ca2e69f54f37349d7c538f17e82.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/c1366ca2e69f54f37349d7c538f17e82.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/c1366ca2e69f54f37349d7c538f17e82.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/c1366ca2e69f54f37349d7c538f17e82.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/c1366ca2e69f54f37349d7c538f17e82.svg#EngraversGothicW01-Bold")
+      format("svg");
+}
+@import url(https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap);
+
+body {
+  text-align: center;
+  background-image: url("https://images7.alphacoders.com/671/thumb-1920-671281.jpg");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container {
+  border-width: max-content;
+  width: 40%;
+  border-style: none;
+  background-color: hsl(0, 100%, 0%, 0.7);
+  text-align: center;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  border-radius: 20px;
+  max-width: 90%;
+  min-width: 70%;
+}
+.filme {
+  font-family: "EngraversGothicW01-Bold";
+  font-size: 35px;
+}
+
+.page-logo {
+  width: 150px;
+  position: top;
+}
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+/* título */
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+  font-family: "MarzoW00-Regular", monospace;
+  font-size: 26px;
+  text-shadow: 20px 20px 20px #000;
+  letter-spacing: 5px;
+  cursor: default;
+}
+/* animação ao passar o mouse por cima */
+.page-title:hover {
+  transition-duration: 1s;
+  color: #ffe81f;
+}
+/* nome do desenvolvedor que sou eu, Leonardo */
+.dev {
+  color: #00ff00;
+  margin-top: 2px;
+  font-family: "EngraversGothicW01-Bold";
+  cursor: default;
+}
+/* animação ao passar o mouse por cima */
+.dev:hover {
+  transition-duration: 1s;
+  color: #00689a;
+}
+/* imagem do star wars */
+.star {
+  width: 250px;
+  position: top;
+}
+/* divisão entre os tópicos*/
+.legenda-explicacao {
+  border: 0;
+  color: #ffe81f;
+  background: #000000;
+  padding: 15px 20px;
+  font-size: 18.5px;
+  background-size: 12px;
+  border-radius: 4px;
+  margin-top: 20px;
+  font-family: "EngraversGothicW01-Bold";
+}
+/* animação ao passar o mouse por cima */
+.legenda-explicacao:hover {
+  transition-duration: 1.5s;
+  color: #ffe81f;
+  cursor: default;
+}
+/* explicação da funcionalidade do site */
+.explicacao-funcionalidade {
+  color: #ffe81f;
+  margin: 0 0 5px;
+  font-family: "EngraversGothicW01-Bold", monospace;
+  font-size: 20px;
+  text-shadow: 10px 10px 10px #000;
+  letter-spacing: 2px;
+  cursor: default;
+}
+/* animação ao passar o mouse por cima */
+.explicacao-funcionalidade:hover {
+  transition-duration: 1.4s;
+  color: #00ff00;
+}
+/* explicação da funcionalidade dos botões */
+.explicacao-botoes {
+  color: #ffe81f;
+  margin: 0 0 5px;
+  font-family: "EngraversGothicW01-Bold", monospace;
+  font-size: 19px;
+  text-shadow: 10px 10px 10px #000;
+  letter-spacing: 2px;
+  cursor: default;
+}
+/* animação ao passar o mouse por cima */
+.explicacao-botoes:hover {
+  transition-duration: 1.4s;
+  color: #00ff00;
+}
+/* divisão dos tópicos */
+.legenda-tutorial {
+  border: 0;
+  color: #ffe81f;
+  background: #000000;
+  padding: 15px 20px;
+  font-size: 18.5px;
+  background-size: 12px;
+  border-radius: 4px;
+  margin-top: 20px;
+  font-family: "EngraversGothicW01-Bold";
+}
+/* animação ao passar o mouse por cima */
+.legenda-tutorial:hover {
+  transition-duration: 1.5s;
+  color: #ffe81f;
+  cursor: default;
+}
+/* tutorial de como adicionar as imagens */
+.tutorial {
+  color: #ffe81f;
+  margin: 0 0 5px;
+  font-family: "EngraversGothicW01-Bold", monospace;
+  font-size: 19.5px;
+  text-shadow: 10px 10px 10px #000;
+  letter-spacing: 2px;
+  cursor: default;
+}
+.tutorial:hover {
+  transition-duration: 1.4s;
+  color: #ff0000;
+}
+.question {
+  color: #ffffff;
+  margin-top: 5px;
+  font-family: "EngraversGothicW01-Bold";
+  font-size: 25px;
+  text-shadow: 10px 10px 10px #000;
+  letter-spacing: 5px;
+  cursor: default;
+}
+.question:hover {
+  transition-duration: 1.3s;
+  color: #00689a;
+}
+
+.form-wrapper {
+  margin: 0 0 15px;
+}
+/* estilização dos inputs */
+.form-wrapper input {
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-family: "EngraversGothicW01-Bold";
+  font-size: 20px;
+  color: #000000;
+  background: white;
+  text-align: center;
+}
+.form-wrapper input:hover {
+  transition-duration: 1s;
+  color: #ffe81f;
+}
+/* estilização dos botões */
+.form-wrapper button {
+  border: 0;
+  color: #ffe81f;
+  background: #000000;
+  font-family: "EngraversGothicW01-Bold";
+  padding: 15px 20px;
+  font-size: 19px;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+.form-wrapper button:hover {
+  transition-duration: 1.2s;
+  cursor: pointer;
+  color: #ff0000;
+}
+/* estilização dos avisos */
+h4 {
+  color: #00ff00;
+  letter-spacing: 2px;
+  font-size: 20px;
+  cursor: default;
+  font-family: "EngraversGothicW01-Bold";
+}
+
+h4:hover {
+  transform: scale(1.2);
+  transition-duration: 1s;
+  color: #00689a;
+  ext-shadow: 10px 10px 10px #000, 10px 10px 10px #00689a;
+}
+/* estilização da opção deletar */
+#delete {
+  width: 35vh;
+  background-color: #000000;
+  color: #ffe81f;
+  padding: 5px;
+  border-radius: 10px;
+  font-family: "EngraversGothicW01-Bold";
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+#delete:hover {
+  transition-duration: 1.3s;
+  color: #ff0000;
+}
+/* ordem cronológica */
+.ordem {
+  border: 0;
+  color: #ffe81f;
+  padding: 15px 20px;
+  font-size: 22px;
+  border-radius: 4px;
+  margin-top: 20px;
+  font-family: "Press Start 2P", cursive;
+}
+.ordem:hover {
+  transform: scale(1.2);
+  transition-duration: 0.7s;
+  color: #ff0000;
+  ext-shadow: 10px 10px 10px #000, 10px 10px 10px #ff0000;
+  cursor: default;
+}
+body > img {
+  margin: 0 10px;
+}
+/* estilização da imagem */
+img {
+  max-height: 250px;
+  padding: 5px;
+  margin: 3px;
+}
+
+img:hover {
+  transform: scale(1.1);
+  transition-duration: 0.7s;
+  cursor: pointer;
+}
+div {
+  display: inline-block;
+}
+
+.nome-filme {
+  color: #fff;
+  font-size: 12px;
+  cursor: default;
+  font-family: "EngraversGothicW01-Bold";
+}
+.nome-filme:hover {
+  transform: scale(1.2);
+  transition-duration: 1s;
+  color: #fff;
+  ext-shadow: 10px 10px 10px #000, 10px 10px 10px #fff;
+}

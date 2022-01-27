@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <title>Lista de Filmes</title>
+  </head>
+
+  <body>
+    <main class="container">
+      <img
+        src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg"
+        class="page-logo"
+        alt=""
+      />
+      <br />
+      <h1 class="page-title">Catálogo de Filmes/Séries</h1>
+      <p class="dev">Desenvolvido por Leonardo Laia</p>
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Star_Wars_Logo.svg/1200px-Star_Wars_Logo.svg.png"
+        class="star"
+        alt=""
+      />
+      <section class="form-wrapper">
+        <p class="legenda-explicacao">Explicação da funcionalidade do site</p>
+        <h1 class="explicacao-funcionalidade">
+          A finalidade do site é, você inserir apenas as imagens dos seus
+          filmes/séries preferidos, copiando o endereço da imagem pelo Google
+          imagens ou outro site de sua preferência.
+        </h1>
+        <h2 class="explicacao-botoes">
+          A caixa "Endereço de Imagem" você cola o endereço da imagem (url); a
+          caixa "Nome do filme/série" você põe o nome do filme/série que você
+          deseja listar; o botão "página google imagens" te redireciona para a
+          página do google imagens ao clicar nele; a opção "selecione para
+          deletar" você seleciona o filme/série que deseja deletar e o botão
+          "deletar" você clica após selecionar o filme/série que deseja deletar.
+        </h2>
+        <p class="legenda-tutorial">Tutorial de como adicionar as imagens</p>
+        <h3 class="tutorial">
+          Para inserir o endereço da imagem, pesquise o filme ou série, primeiro
+          clique na imagem com o botão esquerdo do mouse, depois clique com o
+          botão direito na opção "Copiar endereço da Imagem" e cole o endereço
+          na caixa "Endereço de Imagem" (se for no celular faça o mesmo
+          processo, porém, para copiar o endereço da imagem basta apertar na
+          imagem e depois pressionar com o dedo até aparecer a opção "Copiar
+          endereço de Imagem"). !De preferência adicione imagens que estão na
+          Vertical!
+        </h3>
+        <p class="question">
+          Quais são os seus filmes/séries favoritos(as) ? Adicione-os abaixo
+        </p>
+        <input
+          type="text"
+          id="filme"
+          name="filme"
+          placeholder="Endereço de imagem"
+        />
+        <input
+          type="text"
+          id="nomeFilme"
+          name="filme"
+          placeholder="Nome do filme/série"
+        />
+
+        <button onClick="adicionarFilme()">Adicionar Filme ou Série</button>
+        <a href="https://www.google.com.br/imghp?hl=pt-BR&ogbl" target="_blank"
+          ><button onClick="googlei()">página Google Imagens</button></a
+        >
+        <h3 id="inserted"></h3>
+        <select id="delete"></select
+        ><br />
+        <button id="buttonDelete" type="submit" onclick="Delete()">
+          Deletar
+        </button>
+        <p class="ordem">Ordem Cronológica da saga Star Wars</p>
+        <h4 id="deleted"></h4>
+      </section>
+      <section>
+        <p class="js"></p>
+      </section>
+      <div id="listaFilmes"></div>
+      <a href="https://alura.com.br/" target="_blank">
+        <img
+          src="https://www.alura.com.br/assets/img/home/alura-logo.svg"
+          alt=""
+          class="alura-logo"
+        />
+      </a>
+    </main>
+  </body>
+</html>
